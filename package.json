@@ -9,7 +9,7 @@
     "client": "npm run dev --prefix front",
     "server": "nodemon ./back/app.js",
     "ys": "concurrently \"npm run client\" \"npm run server\"",
-    "build": "npm install && npm install --prefix front && npm run build --prefix front"
+    "build": "npm i && npm i --prefix front && npm run build --prefix front"
   },
   "keywords": [],
   "author": "",
