@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    max-width: 100%;
+   
+}
+
+.input-container{
+    width: 35%;
+   margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.display{
+    width: 50%;
+    margin: auto;
+
+    margin-top: 5rem;
+
+ 
+}
+.display h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: space-between;
+    border: 1px solid rgb(143, 64, 64);
+    padding: 1rem;
+}
+
+.flex p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.flex button{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid  rgb(143, 64, 64);
+    background-color: transparent;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.input-container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.input-container form > *{
+    margin-top: 1rem;
+}
+
+
+.input-container form input{
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(146, 69, 69);
+    font-size: 1.8rem;
+}
+
+.btn{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.center{
+
+  text-align: center;
+  margin: 2rem;
+  text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .input-container{
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .display{
+        width: 95%;
+        
+    }
+  }
